@@ -3,6 +3,9 @@
 
 def key_for_min_value(name_hash)
   collection = []
-  name_hash.collect do |key,value| value
+  name_hash.each do |key,value| collection << value
+    collection.collect do |a,b,c|
+      a <=> b
+  end      
   end
 end
