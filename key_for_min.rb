@@ -5,4 +5,5 @@ def key_for_min_value(name_hash)
   collection = []
   name_hash.each do |key,value| collection << "#{value}"  
   end
+  end
 end
